@@ -31,5 +31,5 @@
 	 
 #05_ Instalação de Reprodutores de Música Editor de Áudio e Vídeo
 	_a - VLC VideoOnLan for Linux (Gerenciador de Aplicativo)
-	_b - Audacity (Gerenciador de Aplicativo)
-	_c - Kdenlive (Recomendo AppImagem)
+	_b - Audacity (Gerenciador de Aplicativo) OK
+	_c - Kdenlive (Recomendo AppImagem) OK

@@ -1,0 +1,11 @@
+Github: diretorio = repositorio
+Github: microsoft = GNU/Linux open source
+  PESQUISAR; MARKDOWN - extensao: *.md
+         README.md
+
+PESQUISAR: comando: git - Editor: VSCode 
+                       (visual studio code)´
+
+# NO TERMINAL
+    sudo apt update
+    sudo apt install git vim

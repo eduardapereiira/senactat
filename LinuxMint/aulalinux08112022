@@ -1,0 +1,21 @@
+Aula Linux 07/11/2022
+
+ Primeira etapa: Windows GNU/Linux
+Particionamento  NTFS/FAT  EXT4
+ 
+ Segunda etapa:   Windows  GNU/Linux
+ Redes (TCP/IPv4  ipconfig   
+                  ipconfig /all
+                  route -n
+ RX = receber
+ TX = transmissor 
+ 
+                  nslookup   nslookup
+				  ping       ping
+
+Terceira Etapa:   windows    GNU/Linux
+                  dir ls     PWD = diretorio corrente
+				  cd         cd
+				  md         mdkdir = criar diretorio 
+				             touch = criar arquivo
+ 

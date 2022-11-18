@@ -1,0 +1,28 @@
+Aula 17/11/2022
+
+Comando de Mover (renomear) 
+  mv ORIGEM DESTINO
+  
+Comando de copiar
+ cp -v ORIGEM DESTINO
+ 
+Comando de  imprimir mensagem na tela echo 
+ echo SENAC Tatuapé
+ echo SENAC Tatuapé > SENAC.txt
+ 
+Comando para listar o conteúdo do arquivo 
+ cat -n 
+ cat -n services
+
+Comando para listar o conteúdo do arquivo,
+ mais eu posso escolher as linhas 
+ head /etc/services - head -n20
+ tail /etc/services - tail -n20
+ 
+  DESAFIO DO PROF.RAMOS (O MELHOR!!!!)
+cat -n /etc/services | head -n20 
+  
+/ETC/SERVICES/ DAS LINHAS; 100 ATÉ 200
+361 = 1 ATÉ 99; EXCLUIR 
+100 ATÉ 200; MANTER (VISUALIZAR)
+201 ATÉ 361; EXCLUIR 

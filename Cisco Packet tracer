@@ -1,0 +1,45 @@
+Configuração do Switch Cisco
+
+!Entrar no modo de privilegio
+enable
+    !Data e Hora
+    clock set 20:45:00 14 March 2023
+    !Entrar na Cinfiguração do terminal
+    configure terminal
+        !Nome do host
+        hostname rt-1941-1
+        !ciar uma senha encriptada
+        service password-encryption
+        !Encrementar a data/hora
+        service timestamps log datetime msec
+        !Achar problemas no roteador
+        service timestamps debug datetime msec
+        !Sem dominio de IP
+        no ip domain-lookup
+        !Aviso a ser mostrado
+        banner motd #AVISO: acesso autorizado somente para funcionarios#
+        !aumentar a seguraça da senha, tamanho minimo de senha
+            security password min-length
+        !habilitar a senha
+        enable secret 123@senac
+        !Criação de usuarios, privilegios e senhas
+        username senac secret 123@senac
+        username tatuape password 123@senac
+        username admin privilege 15 secret 123@senac
+        !adicionar um dominio de IP
+        ip domain-name senac.br
+        !Criptografar a chave / Modulus 1024: maior segurança graças aos numeros que sao mais dificeis de criptografar e de descriptografar
+        crypto key generate rsa general-keys modulus 1024
+        !configuração do SSH
+        ip ssh version 2
+        ip ssh time-out 60
+        ip ssh authentication-retries 2
+            !Bloquear por tempo
+            login block-for 120 attempts 2 within 60
+              
+        !entrar no console 0
+        line console 0  
+            !permitir o login dos usuarios locais
+            login local
+            !Colocando uma senha 
+            password 123@senac

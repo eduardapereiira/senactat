@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Títulos e Parágrafos</title>
+</head>
+<body>
+    <h1>Hierarquia de Título</h1>
+    
+    <h1>Título 1</h1><!--Tipos de titulos-->
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+
+    <h1>História do Vídeo Games</h1>
+        <h2>Playstation</h2>
+        <h3>Play 1</h3>
+            <p>Contando a Hístoria do Play 1</p>
+        <h3>Play 2</h3>
+        <h3>Play 3</h3>
+        <h2>Xbox</h2>
+        <h2>Nintendo</h2>
+        <hr> <!-- criar linha de divisoria-->
+
+        <h1>Paragráfos e Quebrar</h1>
+        <!--paragrafo--> <p>Se precisar fazer alguma quebra de texto em algum lugar podemos usar a tag (br)
+            Exemplo: vamos quebrar o <br> texto aqui
+        </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quaerat accusantium distinctio iusto laboriosam! Ea iste praesentium molestias ex distinctio tempora quisquam nostrum officia labore, sit quas architecto? Laborum, debitis.
+    <br> <!-- pular linha -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iste sit cupiditate dolorum cumque. Similique aliquam iusto recusandae, aspernatur eligendi quibusdam. Sequi sed praesentium eaque temporibus. Dolore quisquam expedita minima.
+     <br><br><br> <!-- Errado, esse espaçamento é feito no css -->  
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, dignissimos iure. Deserunt reprehenderit, voluptates quasi voluptate minus blanditiis error exercitationem tenetur quidem et asperiores obcaecati totam rem voluptas doloribus repudiandae!
+        
+        <hr>
+
+        <h1>Símbolos e Emojis</h1>
+
+        &lt;<!-- Simbolo do menor -->
+        &gt;<!-- Simbolo do maior -->
+        &le;<!-- Simbolo do menor ou igual -->
+        &ge;<!-- Simbolo do maior ou igual -->
+        <br>
+        &pound;<!-- libras -->
+        &yen;
+        &euro;
+        &copy;<!-- copyright-->
+        &reg;,<!-- Marca registrada-->
+        &trade;<!-- trade mark-->
+
+        <br>
+
+        &lowast;
+        &sum;
+        &infin;
+        &plusmn;
+        &times;
+        &oplus;
+        &delta;
+        &Delta;
+        &uparrow;
+    <br>
+     ....Existem muitos símbolos especiais
+     <br><br>
+        <!--emojipedia  site pra buscar emoji-->
+     🥰👍😂👍
+     &#x1F929;
+     <hr>
+
+     <h1>Formatações de texto</h1>
+
+     <b>Este texto está em negrito.</b> <br>
+     <strong>Este texto está em negrito com enfáse.</strong><br>
+     <i> Este texto está em itálico.</i><br>
+    <em> Ênfase . é parecido com o itálico.</em><br>
+    <br>
+       
+        Podemos também colocar o nosso texto com  <mark
+        >texto marcado </mark>     
+       
+    
+    <mark>(marca texto)</mark> usando a tag mark.
+    <br>
+    Podemos também colocaro nosso texto como <mark
+      style="background-color: #c6e98d;">texto <!--marca texto/ seleciona a linha/ CTRI SHIFT P/ mark -->
+    marcado</mark> usando a tag mark.
+    <br>
+    <big>Texto Grande</big>
+    <br>
+    <small>Texto pequeno</small>
+    <br>
+    <del>O texto está como excluido</del> para indicar ele deve ser lido, mas não considerado.
+    <br>
+    <ins>Texto foi inserido</ins> Para indicar que ele foi adicionado depois.
+    <br>
+    Existe também o <u>sublinhado</u> Com a tag (u)
+    <br>
+    <em><strong>Este texto está em itálico e negrito.
+    </strong></em>
+    <br>
+    H <sub>2</sub>0
+    X <sup>2</sup>  
+    <br>
+    
+    <p>Este comando <code>document.getElementByld ('Teste')</code> é escrito em JavaScript </p>
+    <p>
+        <pre>
+            <code>
+                var n = prompt("Digite um numero");
+                var total=n/2;
+                if(n%2 == 0){
+                    alert("Par");
+                }else{
+                    alert("Impar");
+                }
+                alert(total);
+            </code>
+        </pre>
+    </p>
+    <p>
+<pre>
+    Olá... 
+    Tudo bem?
+    
+    Estou bem e você?
+    
+</pre>
+    </p>
+
+    <hr>
+    <h1>Citações</h1>
+
+    <p>
+        Galileu disse: <q> A matemática é o alfabeto com o qual Deus escreveu o universo.</q>
+    </p>
+    <p>Segundo Aristóteles, em livro: </p>
+<blockquote cite="https://mat.absolutamente.net">
+    As ciências matemáticas exibem de forma particular ordem, simetria e limitação, e estas são as maiores formas de beleza.     
+</blockquote>
+       
+<p>
+    Estou fazendo curso técnico no Senac Tatuapé, neste momento estou apredendo <abbr title="Hypertext Markup Language">HTML5</abbr> e <abbr title="Cascating Style Sheets">CSS3</abbr>
+
+</p>
+
+<hr>
+
+Cenas do próximo capítulo.....
+    <h1>Listas ordenadas e não ordenadas</h1>
+
+    <h2>Lista Ordenada</h2>
+    <ol> <!-- lista ordenada / ALINHA POR ORDEM NÚMERICA-->
+        <li>HTML5</li> 
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <ol type="I" start="3"> <!-- faz uma lista organizado por números, letras ou o que vc definiir no TYPE-->
+        <li>HTML5</li> 
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h2>LISTA NÃO ORDENADA</h2>
+    <ul> <!-- ul faz as bolinhas de tópicos -->
+        <li>Pão</li> <!--li*5 = ele cria as lis-->
+        <li>Leite</li>
+        <li>Açucar</li>
+        <li>Café</li>
+        <li>Suco</li>
+    </ul>
+
+    <ul type="disc"> <!-- disc(bolinha aberta), square(quadrado), circle(bolinha fechada)-->
+        <li>Ovos</li>
+        <li>Açucar</li>
+        <li>Farinha</li>
+        <li>Leite</li>
+        <li>Chocolate</li>
+    </ul>
+
+    <ul>
+        <li>Excel <!--fazendo topicos dentro do topico com bolinhas-->
+            <ul>
+                <li>Excel básico</li>
+                <li>Excel avançado</li>
+            </ul>          
+        </li>
+
+        <li>Web
+            <ol> <!--Topicos dentro do topico com números-->
+                <li>Html5</li>
+                <li>Css3</li>
+            </ol>
+        </li>
+    </ul>
+
+    <li>PlayStation</li>
+    <ul>
+        <li>Play1</li>
+        <li>Play2</li>
+    </ul>
+
+    <li>Xbox</li>
+    <ul>
+        <li>Xbox one</li>
+        <li>Ebox serie X</li>
+    </ul>
+
+    <h2>Lista de definição</h2>
+    <!-- dl = definiton list
+    dt = temo
+    dd = definição-->
+    <dt>café da manhã</dt>
+    <dd>O café da manhã é a refeição mais importante do dia.</dd>
+    <dt>Almoço</dt>
+    <dd></dd>
+
+
+</body>
+</html>
